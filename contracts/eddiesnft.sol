@@ -19,7 +19,7 @@ contract EddiesNFTClub is ERC721, ERC721Enumerable, Ownable {
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "";
+        return "https://ipfs.io/ipfs/QmT2nXVVid94KkLQUAL8RwMSuBbAg2BfUJL1DeMLYnBK2j";
     }
 
     function safeMint(address to) public payable {
